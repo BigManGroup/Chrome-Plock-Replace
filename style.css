@@ -1,0 +1,27 @@
+body{
+    background-color: #ffbe9b;
+    font-size: 1.2rem;
+}
+
+.checkbox-label{
+    display: block;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    background-color: #ffebcd;
+    align-content: center;
+
+    margin-top: 5px;
+    margin-bottom: 8px;
+
+    padding-left: 0.5em;
+    padding-bottom: 5px;
+}
+
+button{
+    width: 100%;
+    padding: .5em;
+    background-color: #ffebcd;
+    text-decoration: none;
+}

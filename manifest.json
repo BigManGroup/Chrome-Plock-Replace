@@ -1,0 +1,28 @@
+{
+    "name": "The Bigman Plugman",
+    "description": "Currently, this plugin replaces any instance of please into plock, as the bigman rules accordance",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+       "128": "icon.png"
+     },
+      "default_popup": "popup.html"
+     },
+
+    "permissions": [
+        "activeTab", "storage", "tabs"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+}
