@@ -1,6 +1,6 @@
 {
     "name": "The Bigman Plugman",
-    "description": "Currently, this plugin replaces any instance of please into plock, as the bigman rules accordance",
+    "description": "Replaces any instance of please,plz,pleaze,plox,plx,plis,pliz,pls into plock",
     "version": "1.0",
     "manifest_version": 2,
 
